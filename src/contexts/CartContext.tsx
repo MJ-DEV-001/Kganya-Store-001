@@ -1,5 +1,5 @@
-import { createContext, useContext, useEffect, useState, ReactNode } from 'react';
-import type { CartItem, Product } from '../types/index';
+import { createContext, useContext, useState, useEffect } from 'react';
+import type { ReactNode } from 'react';import type { CartItem, Product } from '../types/index';
 import { supabase } from '../lib/supabase';
 import { useAuth } from './AuthContext';
 
